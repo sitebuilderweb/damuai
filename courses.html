@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Барлық курстар — Damy AI</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container row">
+      <a class="brand" href="index.html"><div class="brand-badge">✦</div><div><span class="brand-name">Damy</span> <span>AI</span></div></a>
+      <nav class="nav-links">
+        <a class="nav-link" href="index.html">Басты бет</a>
+        <a class="nav-link active" href="courses.html">Курстар</a>
+        <a class="nav-link" href="assistant.html">Damy AI</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-hero">
+      <h1 class="section-title">Барлық <span class="gradient-text">курстар</span></h1>
+      <p class="section-subtitle">Заманауи AI құралдарын үйреніңіз. Canva-дан Copilot-қа дейін — барлық курстар тегін және қазақ тілінде</p>
+      <div class="search-box">
+        <span class="icon">⌕</span>
+        <input id="courseSearch" type="text" placeholder="Курсты іздеу...">
+      </div>
+      <div class="filters">
+        <button class="filter-btn active" data-filter="all">Барлығы</button>
+        <button class="filter-btn" data-filter="design">Дизайн</button>
+        <button class="filter-btn" data-filter="education">Білім</button>
+        <button class="filter-btn" data-filter="ai">AI Құралдары</button>
+      </div>
+      <div id="resultCount" class="result-count">6 курс табылды</div>
+    </section>
+
+    <section class="course-grid" style="padding-bottom:48px">
+      <a id="canva" class="card" href="canva.html" data-category="design">
+        <div class="card-media"><img src="https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?auto=format&fit=crop&w=1200&q=80" alt="Canva"><div class="card-overlay"></div><div class="badges"><span class="badge">Дизайн</span><span class="badge green">Бастауыш</span></div></div>
+        <div class="card-body"><h3>Canva - Графикалық дизайн</h3><p>Canva платформасында кәсіби дизайн жасауды үйреніңіз. Постерлер, презентациялар және әлеуметтік желілерге контент.</p><div class="meta"><span>▣ 8 сабақ</span><span>◷ 8 сабақ</span></div><div class="card-link">Толығырақ ›</div></div>
+      </a>
+
+      <a id="kahoot" class="card" href="#" data-category="education">
+        <div class="card-media"><img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=1200&q=80" alt="Kahoot"><div class="card-overlay"></div><div class="badges"><span class="badge">Білім</span><span class="badge green">Бастауыш</span></div></div>
+        <div class="card-body"><h3>Kahoot - Интерактивті тесттер</h3><p>Kahoot платформасында оқушыларға арналған интерактивті тесттер мен викториналар жасауды үйреніңіз.</p><div class="meta"><span>▣ 6 сабақ</span><span>◷ 6 сабақ</span></div><div class="card-link">Толығырақ ›</div></div>
+      </a>
+
+      <a id="chatgpt" class="card" href="#" data-category="ai">
+        <div class="card-media"><img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1200&q=80" alt="ChatGPT"><div class="card-overlay"></div><div class="badges"><span class="badge">AI Құралдары</span><span class="badge green">Бастауыш</span></div></div>
+        <div class="card-body"><h3>ChatGPT - AI көмекші</h3><p>ChatGPT жасанды интеллектін тиімді пайдалану: мәтін жазу, идеялар табу, жоспар құру және сұрақ қою.</p><div class="meta"><span>▣ 10 сабақ</span><span>◷ 10 сабақ</span></div><div class="card-link">Толығырақ ›</div></div>
+      </a>
+
+      <a class="card" href="#" data-category="ai">
+        <div class="card-media"><img src="https://images.unsplash.com/photo-1686191128892-3b0d4c8dd432?auto=format&fit=crop&w=1200&q=80" alt="Midjourney"><div class="card-overlay"></div><div class="badges"><span class="badge">AI Құралдары</span><span class="badge yellow">Орта</span></div></div>
+        <div class="card-body"><h3>Midjourney - AI суреттер</h3><p>Midjourney көмегімен керемет суреттер жасауды үйреніңіз. Тексттік сипаттама бойынша визуал жасау.</p><div class="meta"><span>▣ 7 сабақ</span><span>◷ 7 сабақ</span></div><div class="card-link">Толығырақ ›</div></div>
+      </a>
+
+      <a class="card" href="#" data-category="ai">
+        <div class="card-media"><img src="https://images.unsplash.com/photo-1676299081847-824916de030a?auto=format&fit=crop&w=1200&q=80" alt="Gemini"><div class="card-overlay"></div><div class="badges"><span class="badge">AI Құралдары</span><span class="badge green">Бастауыш</span></div></div>
+        <div class="card-body"><h3>Google Gemini (Bard)</h3><p>Google-дың Gemini AI көмекшісін үйреніңіз. ChatGPT-дің баламасы, Google экожүйесімен байланыс.</p><div class="meta"><span>▣ 5 сабақ</span><span>◷ 5 сабақ</span></div><div class="card-link">Толығырақ ›</div></div>
+      </a>
+
+      <a class="card" href="#" data-category="ai">
+        <div class="card-media"><img src="https://images.unsplash.com/photo-1633412802994-5c058f151b66?auto=format&fit=crop&w=1200&q=80" alt="Copilot"><div class="card-overlay"></div><div class="badges"><span class="badge">AI Құралдары</span><span class="badge yellow">Орта</span></div></div>
+        <div class="card-body"><h3>Microsoft Copilot</h3><p>Microsoft Copilot — Office 365, Windows және басқа Microsoft өнімдерінде AI көмекшісі.</p><div class="meta"><span>▣ 6 сабақ</span><span>◷ 6 сабақ</span></div><div class="card-link">Толығырақ ›</div></div>
+      </a>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
